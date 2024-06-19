@@ -78,7 +78,7 @@ This table records individual sightings, linking each sighting to a checklist an
 - **Leaflet.js**: Integrated with OpenStreetMap tiles to display bird densities and allow user interactions like drawing rectangles.
 - **Chart.js**: Utilized for creating interactive charts and graphs to visualize birding statistics.
 - **HTML & CSS**: Provides extensive styling for a clean and modern user interface.
-- **Py4web**: Utilized python-based web framework to initialize and fetch queries from database
+- **Py4web**: Utilized python-based web framework to initialize and fetch queries from SQLite database
 
 ### Sample Data
 
