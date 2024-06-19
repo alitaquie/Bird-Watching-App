@@ -7,11 +7,12 @@ The Bird Watching App is a web application designed for bird enthusiasts to log 
 ## Features
 
 ### Index Page
-
 - Welcomes users with a map displaying bird densities in their region.
 - Allows users to draw a rectangle on the map to view statistics for that region.
 - Provides a species selection box to filter displayed bird densities.
 - Links to checklist submission page and user statistics page.
+  
+![Example Image](images/Index.png) ![Example Image](images/index2.png)
 
 ### Checklist Page
 
@@ -20,10 +21,15 @@ The Bird Watching App is a web application designed for bird enthusiasts to log 
 - Allows users to enter the number of birds seen for each species and submit their checklist.
 - Provides a page where users can view, edit, or delete their submitted checklists.
 
-### Stats Page
+### User Statistics Page
 
 - Displays user-specific statistics such as all species seen and trends over time.
 - Offers visualizations using Chart.js to showcase birding trends and sightings.
+- Utilizes Leaflet.js to display location of each bird sighting
+  
+![Example Image](images/statistics.png)
+
+  
 
 ### Location Page
 
@@ -31,7 +37,8 @@ The Bird Watching App is a web application designed for bird enthusiasts to log 
 - Displays a list of species observed in the region with the number of sightings.
 - Includes graphs using Chart.js to illustrate bird sightings over time for selected species.
 - Provides information on top contributors for the region.
-
+  
+![Example Image](images/location.png)
 ## Development
 
 ### Technologies Used
